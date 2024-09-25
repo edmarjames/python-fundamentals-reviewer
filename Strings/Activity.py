@@ -94,8 +94,9 @@ print("\n")
 hello_string = "Hello, Python"
 print(hello_string[:5])
 print(hello_string[7:])
-print(hello_string[-2:-1])
-print(hello_string[7:10])
+print(hello_string[4:11])
+# print(hello_string[-2:-1])
+# print(hello_string[7:10])
 
 
 print("\n")
@@ -138,8 +139,8 @@ print("\n")
     # Python is awesome !
 
 # solution
-print("Python", "is", "awesome", "!")
-
+print("Python" + " " + "is" + " " + "awesome" + " " + "!")
+# print("Python", "is", "awesome", "!")
 
 print("\n")
 # 11. String Formatting with f-strings
