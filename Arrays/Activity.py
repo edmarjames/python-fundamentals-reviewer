@@ -19,6 +19,7 @@ print("\r")
 
 # solution
 def second_largest(numbers):
+    numbers = list(set(numbers))
     numbers.sort(reverse = True)
     return numbers[1]
 
@@ -36,8 +37,8 @@ print("\r")
 
 # solution
 def merge_and_sort(arr1, arr2):
-    final_arr = arr1 + arr2    
-    final_arr.sort()    
+    final_arr = arr1 + arr2
+    final_arr.sort()
     return final_arr
 
 arr1 = [1, 5, 9]
@@ -93,13 +94,13 @@ print("\r")
 def find_missing(numbers):
     ctr = 0
     counter = 1
-    while ctr < len(numbers):         
-        if counter == numbers[ctr]: 
-            ctr += 1                                  
-            counter += 1           
-            continue              
+    while ctr < len(numbers):
+        if counter == numbers[ctr]:
+            ctr += 1
+            counter += 1
+            continue
         else:
-            return counter        
+            return counter
 
 numbers = [1, 2, 4, 5, 6]
 print(find_missing(numbers))
