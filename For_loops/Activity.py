@@ -22,12 +22,12 @@ def get_prime_numbers():
     prime_numbers = []
     for num in range(1, 50):
         if num == 0 or num == 1:
-            continue           
+            continue
         else:
             for i in range(2, int(num/2)+1):
                 if num % i == 0:
                     break
-            else:                                            
+            else:
                 prime_numbers.append(num)
     return prime_numbers
 
@@ -35,7 +35,7 @@ prime_numbers = get_prime_numbers()
 print(prime_numbers)
 
 
-print("\n")
+print("\r")
 # 2. String Reversal
 # Write a program that loops through a string (inputted by the user) and prints its reverse without using slicing ([::-1]).
     # Expected Output: If the input is "Python", the output should be
@@ -61,7 +61,7 @@ str_input = input()
 reverse_string(str_input)
 
 
-print("\n")
+print("\r")
 # 3. Print the Fibonacci Sequence
 # Using a for loop, print the first 10 numbers of the Fibonacci sequence (0, 1, 1, 2, 3, 5, 8, 13, 21, 34).
     # Expected Output:
@@ -87,7 +87,7 @@ result = get_fibonacci()
 print(result)
 
 
-print("\n")
+print("\r")
 # 4. Multiplication Table
 # Write a program that prints a multiplication table for numbers 1 to 5 using nested loops.
     # Expected Output:
@@ -112,7 +112,7 @@ def multiplication_table():
 multiplication_table()
 
 
-print("\n")
+print("\r")
 # 5. Sum of Numbers (Skipping Multiples of 3)
 # Write a program that loops through numbers from 1 to 30 and calculates the sum, but skips numbers that are multiples of 3 using continue.
     # Expected Output:
@@ -121,8 +121,8 @@ print("\n")
 # solution
 def sum_of_numbers():
     sum_val = 0
-    for ctr in range(1, 31):                
-        if ctr %3 != 0:            
+    for ctr in range(1, 31):
+        if ctr %3 != 0:
             sum_val += ctr
     return sum_val
 
@@ -130,7 +130,7 @@ result = sum_of_numbers()
 print(f"Sum of numbers excluding multiples of 3: {result}")
 
 
-print("\n")
+print("\r")
 # 6. Palindrome Checker
 # Write a program that loops through a list of strings and checks if each string is a palindrome (a word that reads the same backward as forward). Print whether each word is a palindrome or not.
     # Expected Output:
@@ -153,7 +153,7 @@ print(palindrome_checker("hello"))
 print(palindrome_checker("level"))
 
 
-print("\n")
+print("\r")
 # 7: Skip and Stop
 # Write a for loop that iterates through numbers from 1 to 20, printing each number. Skip numbers divisible by 4 using continue, and stop the loop completely if you encounter a number divisible by 7 using break.
     # Expected Output:
@@ -172,5 +172,5 @@ def skip_and_stop():
             break
         else:
             print(ctr)
-    
+
 skip_and_stop()
