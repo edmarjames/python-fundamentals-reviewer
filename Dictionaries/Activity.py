@@ -6,11 +6,11 @@
 # solution
 def get_highest_score(students):
     all_scores = students.values()
-    max_score = max(all_scores)    
+    max_score = max(all_scores)
 
     for student, scores in students.items():
-        if max_score == scores:            
-            return student    
+        if max_score == scores:
+            return student
 
 students_scores = {
     "Alice": 87,
@@ -23,7 +23,7 @@ high_scorer = get_highest_score(students_scores)
 print(high_scorer)
 
 
-print("\n")
+print("\r")
 # 2. Nested Dictionary Operations
 # You have a nested dictionary of employee data. Write a function update_employee_age() that accepts an employee name and a new age, and updates the age in the dictionary.
     # Expected Output:
@@ -32,9 +32,9 @@ print("\n")
 
 # solution
 def update_employee_age(name, age):
-    for data in employees.values():        
-        if data["name"] == name:                      
-            data["age"] = age    
+    for data in employees.values():
+        if data["name"] == name:
+            data["age"] = age
 
 employees = {
     "E001": {"name": "Alice", "age": 29, "department": "HR"},
@@ -45,7 +45,7 @@ update_employee_age("Charlie", 30)
 print(employees["E003"]["age"])
 
 
-print("\n")
+print("\r")
 # 3. Dictionary Merge
 # You have two dictionaries of stock items from different warehouses. Write a function merge_stocks() that combines them. If an item appears in both, sum their quantities.
     # Expected Output:
@@ -89,7 +89,7 @@ merged_stock = merge_stocks(warehouse_a, warehouse_b)
 print(merged_stock)
 
 
-print("\n")
+print("\r")
 # 4. Frequency Count
 # Write a function word_frequency() that takes a list of words and returns a dictionary with the frequency count of each word. Ignore case when counting.
     # Expected Output:
@@ -116,7 +116,7 @@ word_counts = word_frequency(words)
 print(word_counts)
 
 
-print("\n")
+print("\r")
 # 5. Multiple Nested Loops
 # You are given a dictionary where keys are strings (cities) and values are dictionaries containing information about the population and area (in km²). Write a function city_density() that computes the population density for each city.
     # Expected Output:
@@ -149,7 +149,7 @@ population_density = city_density(cities)
 print(population_density)
 
 
-print("\n")
+print("\r")
 # 6. Remove Duplicates from Dictionary Values
 # Write a function remove_duplicates() that accepts a dictionary where the values are lists. The function should remove any duplicate items within each list.
     # Expected Output:
@@ -180,7 +180,7 @@ clean_data = remove_duplicates(data)
 print(clean_data)
 
 
-print("\n")
+print("\r")
 # 7. Key Transformation
 # Write a function keys_to_uppercase() that converts all the keys in a given dictionary to uppercase. Assume all keys are strings.
     # Expected Output:
