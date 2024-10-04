@@ -8,7 +8,7 @@ def first_function():
 # To call a function, use the function name followed by parenthesis.
 first_function()
 
-print("\n")
+print("\r")
 # Arguments
 # Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.
 # Arguments are often shortened to args in Python documentations.
@@ -19,7 +19,7 @@ print_name("Edmar")
 print_name("James")
 print_name("Bautista")
 
-print("\n")
+print("\r")
 # Number of arguments
 # By default, a function must be called with the correct number of arguments. Meaning that if your function expects 2 arguments, you have to call the function with 2 arguments, not more, and not less.
 def print_full_name(first_name, middle_name, last_name):
@@ -27,7 +27,7 @@ def print_full_name(first_name, middle_name, last_name):
 
 print_full_name("Edmar James", "Bermejo", "Bautista")
 
-print("\n")
+print("\r")
 # Arbitrary Arguments, *args
 # If you do not know how many arguments that will be passed into your function, add a "*" before the parameter name in the function definition.
 # This way the function will receive a tuple of arguments, and can access the items accordingly.
@@ -39,7 +39,7 @@ def my_hobbies(*hobbies):
 
 my_hobbies("Reading", "Cycling", "Motorcycling", "Coding")
 
-print("\n")
+print("\r")
 # Keyword arguments
 # You can also send arguments with the key = value syntax.
 # This way the order of the arguments does not matter.
@@ -49,7 +49,7 @@ def fav_color(color1, color2, color3):
 
 fav_color(color2 = "Cyan", color1 = "Celeste green", color3 = "Blue green")
 
-print("\n")
+print("\r")
 # Arbitrary Keyword Arguments, **kwargs
 # If you do not know how many keyword arguments that will be passed into your function, add two asterisk "**" before the parameter name in the function definition.
 # This way the function will receive a dictionary of arguments, and can access the items accordingly.
@@ -60,7 +60,7 @@ def print_details(**detail):
 
 print_details(name = "Edmar", occupation = "Software Engineer")
 
-print("\n")
+print("\r")
 # Default parameter value
 # We can assign a default value to a parameter so that it will be the fallback value if the argument is not provided.
 # If we call the function without or missing an argument, it will use the default value.
@@ -70,7 +70,7 @@ def print_city(city = "Taguig"):
 print_city("Makati")
 print_city()
 
-print("\n")
+print("\r")
 # Passing a list as an argument
 # You can send any data types of argument to a function (string, number, list, dictionary, etc.) and it will be treated as the same dta type inside the function.
 def fav_food(foods):
@@ -80,7 +80,7 @@ def fav_food(foods):
 
 fav_food(["Pares", "Beef Steak", "Beef broccoli", "Lasagna"])
 
-print("\n")
+print("\r")
 # Return values
 # To let a function return a value, use the "return" statement.
 def my_age():
@@ -88,13 +88,13 @@ def my_age():
 
 print(f"My age is {my_age()}")
 
-print("\n")
+print("\r")
 # The pass statement
 # function definitions cannot be empty, but if you for some reason have a function definition with no content, put in the "pass" statement to avoid getting an error.
 def pass_function():
     pass
 
-print("\n")
+print("\r")
 # Positional-only arguments
 # You can specify that a function can have only positional arguments, or only keyword arguments.
 # To specify that a function can have only positional arguments, add ", /" after the arguments.
@@ -105,7 +105,7 @@ def pos_args_function(arg1, /):
 
 pos_args_function(1)
 
-print("\n")
+print("\r")
 # Keyword-only arguments
 # To specify that a function can have only keyword arguments, add "*," before the arguments.
 # Without the "*," you are allowed to use positional arguments even if the function expects keyword arguments.
@@ -115,7 +115,7 @@ def keyword_args_function(*, key1):
 
 keyword_args_function(key1 = 2)
 
-print("\n")
+print("\r")
 # Combine positional-only and keyword-only
 # You can combine the two argument types in the same function.
 # Any argument before the ",/" are positional-only and any argument after the "*," are keyword only.

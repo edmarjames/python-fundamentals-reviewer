@@ -15,7 +15,7 @@ print(factorial(5))
 print(factorial(3))
 
 
-print("\n")
+print("\r")
 # 2. Sum of Arbitrary Arguments
 # Write a function sum_all(*args) that accepts any number of numeric arguments and returns their sum. If no arguments are passed, return 0.
     # Expected Output:
@@ -38,7 +38,7 @@ print(sum_all(4, 5))
 print(sum_all())
 
 
-print("\n")
+print("\r")
 # 3. Default Values and Custom Greeting
 # Write a function greet_user(name, greeting="Hello") that takes a user's name and an optional greeting. If no greeting is provided, the function should use "Hello" as the default greeting.
     # Expected Output:
@@ -53,7 +53,7 @@ greet_user("Edmar")
 greet_user("James", "Welcome")
 
 
-print("\n")
+print("\r")
 # 4. User Profile Using Keyword Arguments
 # Write a function create_profile(**kwargs) that accepts arbitrary keyword arguments to build a user profile. The function should print the user's details.
     # Expected Output:
@@ -74,7 +74,7 @@ def create_profile(**kwargs):
 create_profile(name = "Edmar", age = 26, profession = "Software Engineer")
 
 
-print("\n")
+print("\r")
 # 5. Return a Function’s Documentation
 # Write a function docstring(func) that accepts a function as an argument and returns its docstring.
     # Expected Output:
@@ -82,7 +82,7 @@ print("\n")
     #     """This is an example function."""
     #     pass
 
-    # print(docstring(example_func))  
+    # print(docstring(example_func))
     # # Output: This is an example function.
 
 # solution
@@ -96,7 +96,7 @@ def sample_func():
 print(docstring(sample_func))
 
 
-print("\n")
+print("\r")
 # 6. Find Maximum Using Positional-Only Arguments
 # Write a function find_max(a, b, /) that only accepts positional arguments and returns the maximum of the two numbers.
     # Expected Output:
@@ -111,7 +111,7 @@ print(find_max(10, 20))
 print(find_max(5, -10))
 
 
-print("\n")
+print("\r")
 # 7. Combine Positional and Keyword Arguments
 # Write a function calculate_area(length, width, /, *, unit="square meters") that calculates and prints the area of a rectangle using the provided length and width. The unit of the area is optional and defaults to "square meters".
     # Expected Output:
@@ -127,7 +127,7 @@ print(calculate_area(5, 10))
 print(calculate_area(3, 7, unit="sq. feet"))
 
 
-print("\n")
+print("\r")
 # 8. List Manipulation Function
 # Write a function modify_list(lst, action="add", value=0) that modifies a list. The function should:
 # Add value to the list if action is "add".
