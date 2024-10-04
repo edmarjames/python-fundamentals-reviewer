@@ -48,7 +48,7 @@ if grade_input == 100:
     print("Perfect Score!")
 
 
-print("\n")
+print("\r")
 # 2. Nested Conditions: Movie Ticket Pricing
 # Create a program that calculates the price of a movie ticket based on a person's age and membership status:
 # Age < 12: ticket price = $5
@@ -69,7 +69,7 @@ print("\n")
     # Expected Output: Final Ticket Price: $5.6  # (20% discount on $7)
 
 # solution
-def compute_ticket_price(age, is_member):    
+def compute_ticket_price(age, is_member):
     if age < 12:
         price = 5
     elif age >= 12 and age <= 59:
@@ -93,7 +93,7 @@ computed_price = compute_ticket_price(age_input, member_input)
 print(f"Final Ticket Price: ${computed_price}")
 
 
-print("\n")
+print("\r")
 # 3. Complex List Comparison
 # Write a program that takes two lists of integers as input, compares their contents, and prints:
 # "Same length, same values" if both lists have the same length and identical values in the same positions.
@@ -118,7 +118,7 @@ def check_list(list1, list2):
     result_str_list = []
 
     if len(list1) != 0 and len(list2) != 0 and len(list1) == len(list2):
-        result_str_list.append("Same Length")        
+        result_str_list.append("Same Length")
         if list1 == list2:
             result_str_list.append("same values")
         else:
@@ -128,7 +128,7 @@ def check_list(list1, list2):
         result_str_list.append("Different length")
     elif len(list1) == 0 and len(list2) == 0:
         result_str_list.append("Both lists are empty")
-    
+
     if len(result_str_list) > 1:
         return ", ".join(result_str_list)
     else:
@@ -140,7 +140,7 @@ print(check_list([1, 2, 3, 4], [1, 2, 3]))
 print(check_list([], []))
 
 
-print("\n")
+print("\r")
 # 4. Logic Gate Simulator
 # Implement a simple logic gate simulator. The program should ask the user for two boolean inputs (True or False) and perform the following logical operations:
 # AND
@@ -180,12 +180,12 @@ def logic_gate(input1, input2):
 
     print(f"AND: {input1 and input2}")
     print(f"OR: {input1 or input2}")
-    print(f"NOT input1: {not input1}")    
+    print(f"NOT input1: {not input1}")
 
 print("Kindly enter True or False")
 first_input = input()
 print("Kindly enter True or False")
 second_input = input()
 
-print("\n")
+print("\r")
 logic_gate(first_input, second_input)
