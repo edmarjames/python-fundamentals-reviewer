@@ -6,12 +6,12 @@
 x = lambda a : a * 2
 print(x(6))
 
-print("\n")
+print("\r")
 # Lambda functions can take any number of arguments.
 y = lambda a, b : a + b
 print(y(99, 12))
 
-print("\n")
+print("\r")
 # Why use Lambda functions
 # The power of lambda is better shown when you use them as an anonymous function inside another function.
 # Say you have a function definition that takes one argument, and that argument will be multiplied with an unknown number
