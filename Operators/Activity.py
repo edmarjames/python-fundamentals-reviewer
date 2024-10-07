@@ -26,7 +26,7 @@ print(2**4)
 print(22 // 7)
 
 
-print("\n")
+print("\r")
 # 2. Assignment Operators
 # Start with x = 5 and perform the following assignments:
 # Add 3 to x (x += 3)
@@ -55,7 +55,7 @@ x %= 3
 print(x)
 
 
-print("\n")
+print("\r")
 # 3. Comparison Operators
 # Compare the following values and print the Boolean result:
 # 7 == 7
@@ -81,7 +81,7 @@ print(25 >= 25)
 print(18 <= 12)
 
 
-print("\n")
+print("\r")
 # 4. Logical Operators
 # Given x = 7 and y = 10, evaluate the following expressions:
 # x == 7 and y == 10
@@ -100,7 +100,7 @@ print(x == 5 or y == 10)
 print(not x == 7)
 
 
-print("\n")
+print("\r")
 # 5. Identity Operators
 # Use the following variables: a = 5 and b = a. Test the identity of the variables:
 # Check if a is b
@@ -108,7 +108,7 @@ print("\n")
     # Expected Output:
     # True
     # False
-    
+
 # solution
 a = 5
 b = a
@@ -116,7 +116,7 @@ print(a is b)
 print(a is not b)
 
 
-print("\n")
+print("\r")
 # 6. Membership Operators
 # Given lst = [2, 4, 6, 8, 10], test the following membership:
 # Check if 4 is in lst

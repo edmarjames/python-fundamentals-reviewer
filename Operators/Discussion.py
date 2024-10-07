@@ -17,7 +17,7 @@ print(4 / 4) # Division
 print(5 % 4) # Modulus
 print(2**3) # Exponential
 print(13 // 3) # Floor division
-print("\n")
+print("\r")
 
 # Assignment operators are used to assign values to variables.
 
@@ -38,10 +38,10 @@ print(x)
 
 x %= 1 # modulo assignment operator
 print(x)
-print("\n")
+print("\r")
 
 # Comparison Operators are used to compare two values.
-a = 5 
+a = 5
 b = 10
 
 print(a == b) # equal
@@ -50,7 +50,7 @@ print(a > b) # greater than
 print(a < b) # less than
 print(a >= b) # greater than or equal
 print(a <= b) # less than or equal
-print("\n")
+print("\r")
 
 # Logical Operators are used to combine conditional statements
 a1 = 5
@@ -59,12 +59,12 @@ b1 = 10
 print(a == 5 and a1 == 5) # and -> returns True if both statements are true
 print(a == 5 or a1 == 5) # or -> returns True if one of the statements are true
 print(not(a == 5)) # not -> reverse the result, returns False if the result is true
-print("\n")
+print("\r")
 
 # Identity Operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location.
 print(a is a) # is -> returns True if both variables are the same object
 print(a is not b) # is not -> returns True if both variables are not the same object
-print("\n")
+print("\r")
 
 # Membership operators are used to test if a sequence is presented in an object
 num_list = [1, 2, 3, 4, 5]
