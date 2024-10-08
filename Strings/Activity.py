@@ -11,7 +11,7 @@ print(f"'{test_str}'")
 print(f"\"{test_str}\"")
 
 
-print("\n")
+print("\r")
 # 2. Multiline String
 # Assign a multiline string to a variable using triple quotes.
 # Print the multiline string.
@@ -28,7 +28,7 @@ ut labore et dolore magna aliqua.
 print(multiline_string)
 
 
-print("\n")
+print("\r")
 # 3. Accessing String Characters
 # Given the string "Python", print the first and last characters of the string.
     # Expected Output:
@@ -41,7 +41,7 @@ print(str_py[0])
 print(str_py[-1])
 
 
-print("\n")
+print("\r")
 # 4. String Loop
 # Loop through the string "Exercise" and print each character on a new line.
     # Expected Output:
@@ -60,7 +60,7 @@ for char in exercise_str:
     print(char)
 
 
-print("\n")
+print("\r")
 # 5. String Length
 # Create a string variable that holds "Programming is exciting!".
 # Print the length of the string.
@@ -72,7 +72,7 @@ len_string = "Programming is exciting!"
 print(len(len_string))
 
 
-print("\n")
+print("\r")
 # 6. Check Substring
 # Check if the word "exciting" is in the string "Programming is exciting!".
     # Expected Output:
@@ -82,7 +82,7 @@ print("\n")
 print("exciting" in "Programming is exciting!")
 
 
-print("\n")
+print("\r")
 # 7. Slicing Strings
 # Slice the string "Hello, Python" to print "Hello", "Python", and "o, Pyt".
     # Expected Output:
@@ -99,7 +99,7 @@ print(hello_string[4:11])
 # print(hello_string[7:10])
 
 
-print("\n")
+print("\r")
 # 8. String Modifications
 # Convert the string "hello WORLD" to uppercase, lowercase, and strip any surrounding whitespaces from the string " hello Python ".
     # Expected Output:
@@ -115,7 +115,7 @@ print(to_modify_str.lower())
 print(to_strip_str.strip())
 
 
-print("\n")
+print("\r")
 # 9. Replace and Split
 # Replace the word "World" in the string "Hello, World!" with "Python".
 # Split the string "Learn to code in Python" into a list of words.
@@ -132,7 +132,7 @@ print(replaced_str)
 print(list_str)
 
 
-print("\n")
+print("\r")
 # 10. String Concatenation
 # Concatenate the following strings: "Python", "is", "awesome", and "!" into a single string with spaces between each word.
     # Expected Output:
@@ -142,7 +142,7 @@ print("\n")
 print("Python" + " " + "is" + " " + "awesome" + " " + "!")
 # print("Python", "is", "awesome", "!")
 
-print("\n")
+print("\r")
 # 11. String Formatting with f-strings
 # Use an f-string to print "My name is John and I am 30 years old."
 # Use f-string modifiers to print 45.6789 rounded to 2 decimal places.
@@ -158,7 +158,7 @@ print(f"My name is {name} and I am {age} years old.")
 print(f"{num_value:.2f}")
 
 
-print("\n")
+print("\r")
 # 12. Escape Characters
 # Print the following sentence with quotes: "I love programming in Python".
     # Expected Output:
