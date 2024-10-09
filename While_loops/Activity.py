@@ -15,7 +15,7 @@ def get_first_multiple():
 get_first_multiple()
 
 
-print("\n")
+print("\r")
 # 2. Skipping Even Numbers
 # Write a program that prints all odd numbers from 1 to 20 using a while loop. Use the continue statement to skip even numbers.
     # Expected Output:
@@ -33,17 +33,17 @@ print("\n")
 # solution
 def skip_even_numbers():
     ctr = 1
-    while ctr < 20:                                      
+    while ctr < 20:
         if ctr %2 == 0:
-            ctr += 1 
-            continue     
-        print(ctr)    
-        ctr += 1             
-        
+            ctr += 1
+            continue
+        print(ctr)
+        ctr += 1
+
 skip_even_numbers()
 
 
-print("\n")
+print("\r")
 # 3. Countdown Timer
 # Write a while loop that counts down from 10 to 0 and prints each number. When it reaches 0, print "Blast off!" using the else statement after the loop ends.
     # Expected Output:
@@ -72,7 +72,7 @@ def countdown_timer():
 countdown_timer()
 
 
-print("\n")
+print("\r")
 # 4. Sum of Numbers Until 50
 # Write a program that calculates the sum of numbers starting from 1 and keeps adding them until the sum exceeds 50. Use a while loop to do this and print the sum.
     # Expected Output:
@@ -80,19 +80,19 @@ print("\n")
 
 # solution
 def sum_of_fifty():
-    ctr = 0  
+    ctr = 0
     sum_of_fifty = 0
     while ctr <= 50:
-        ctr += 1                
-        sum_of_fifty += ctr  
+        ctr += 1
+        sum_of_fifty += ctr
         if sum_of_fifty > 50:
-            break      
+            break
     print(sum_of_fifty)
 
 sum_of_fifty()
 
 
-print("\n")
+print("\r")
 # 5. Infinite Loop Guard
 # Write a program that simulates an infinite loop (e.g., while True), but safely breaks out of the loop after printing "Still running..." five times. Use the break statement to exit the loop.
     # Expected Output:

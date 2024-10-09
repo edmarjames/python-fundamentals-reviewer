@@ -4,8 +4,8 @@ ctr = 0
 while ctr <= 10:
     print(ctr)
     ctr += 1
-    
-print("\n")
+
+print("\r")
 # The break statement
 # With the "break" statement we can stop the loop even if the while condition is true.
 ctr1 = 0
@@ -15,17 +15,17 @@ while ctr1 <= 10:
         break
     ctr1 += 1
 
-print("\n")
+print("\r")
 # The continue statement
 # With the "continue" statement we can stop the current iteration, and continue with the next.
 ctr2 = 0
 while ctr2 <= 10:
-    ctr2 += 1    
+    ctr2 += 1
     if ctr2 == 3:
         continue
     print(ctr2)
 
-print("\n")
+print("\r")
 # The else statement
 # With the "else" statement we can run a block of code once when the condition is no longer true.
 ctr4 = 0
